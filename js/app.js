@@ -49,7 +49,7 @@ for(let i = 0;i < 3; i++){
 }
 
 setInterval(() => {
-   // createSlide();
+    createSlide();
 }, 3000);
 
 // video cards
@@ -58,11 +58,11 @@ const videoCards = [...document.querySelectorAll('.video-card')];
 
 videoCards.forEach(item => {
     item.addEventListener('mouseover', () => {
-        let video = item.childern[1];
+        let video = item.children[1];
         video.play();
     })
     item.addEventListener('mouseover', () => {
-        let video = item.childern[1];
+        let video = item.children[1];
         video.pause();
     })
 })
