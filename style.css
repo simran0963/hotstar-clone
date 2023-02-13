@@ -89,7 +89,7 @@ body{
     text-decoration: none;
 }
 
-.caraousel-container{
+.carousel-container{
     position: relative;
     width: 100%;
     height: 450px;
@@ -98,7 +98,7 @@ body{
     margin-top: 80px;
 }
 
-.caraousel{
+.carousel{
     display: flex;
     width: 92%;
     height: 100%;
@@ -195,7 +195,7 @@ body{
 }
 
 .movies-list{
-    width: 100%;
+    width: 200%;
     height: 220px;
     position: relative;
     margin: 40px 40px 20px;
